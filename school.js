@@ -74,3 +74,8 @@ class HighSchool extends School {
     console.log(this._sportsTeams);
   }
 }
+
+module.exports.School = School;
+module.exports.PrimarySchool = PrimarySchool;
+module.exports.MiddleSchool = MiddleSchool;
+module.exports.HighSchool = HighSchool;
