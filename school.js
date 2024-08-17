@@ -42,8 +42,7 @@ class School {
    * @param {[string]} substituteTeachers
    */
   static pickSubstituteTeacher(substituteTeachers) {
-    const randomIndex =
-      Math.floor(Math.random() * substituteTeachers.length) - 1;
+    const randomIndex = Math.floor(Math.random() * substituteTeachers.length);
     return substituteTeachers[randomIndex];
   }
 }
